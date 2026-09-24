@@ -2,9 +2,9 @@
 
 **Semana 1: Arquitectura y Lógica Core (Model & ViewModel)**
 - [x] Definir estructuras de datos principales: `[Placeholder: Nombre del Struct/Clase para Ciclo de Sueño]`.
-- [ ] Implementar algoritmo de cálculo de despertar: `[Placeholder: Nombre de la función que suma bloques de 90 min]`.
-- [ ] Implementar algoritmo de cálculo inverso: `[Placeholder: Nombre de la función que resta bloques de 90 min]`.
-- [ ] Escribir pruebas unitarias iniciales para verificar la precisión de `[Placeholder: Archivo de lógica de tiempo]`.
+- [x] Implementar algoritmo de cálculo de despertar: `[Placeholder: Nombre de la función que suma bloques de 90 min]`.
+- [x] Implementar algoritmo de cálculo inverso: `[Placeholder: Nombre de la función que resta bloques de 90 min]`.
+- [x] Escribir pruebas unitarias iniciales para verificar la precisión de `[Placeholder: Archivo de lógica de tiempo]`.
 
 **Semana 2: Interfaz de Usuario (Views en SwiftUI)**
 - [ ] Construir vista principal (Home): `[Placeholder: Nombre del archivo, ej. HomeView.swift]`.
