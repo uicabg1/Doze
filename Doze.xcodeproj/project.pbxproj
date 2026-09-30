@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1B4AF693306ADB6E00BCBC0D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1B4AF68B306ADB6E00BCBC0D /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		1B1653DA30635C980084F974 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -34,6 +38,7 @@
 		1B1653CA30635C970084F974 /* Doze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B1653D930635C980084F974 /* DozeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DozeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B1653E330635C980084F974 /* DozeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DozeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B4AF68B306ADB6E00BCBC0D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1BF30E3B30661C4B002131C9 /* SleepMetricsTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepMetricsTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -94,6 +99,7 @@
 				1B1653DC30635C980084F974 /* DozeTests */,
 				1B1653E630635C980084F974 /* DozeUITests */,
 				1B1653CB30635C970084F974 /* Products */,
+				1B4AF68B306ADB6E00BCBC0D /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -253,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B4AF693306ADB6E00BCBC0D /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

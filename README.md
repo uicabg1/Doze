@@ -1,4 +1,4 @@
-# Doze
+    # Doze
 
 A native iOS application designed to calculate optimal sleep cycles (90 minutes) and record basic daily rest metrics completely offline.
 
@@ -48,7 +48,7 @@ The project follows the **MVVM (Model-View-ViewModel)** pattern with clear separ
 
 - [x] Week 1: Core architecture, data model design (`SleepRecord`), and mathematical cycle logic (`SleepCalculator`).
 - [ ] Week 2: SwiftUI screen layout implementation (Wake-up, Bedtime, Energy, Manual Log, Metrics).
-- [ ] Week 3: Integration of SwiftData local storage and `NotificationManager` flow.
+- [x] Week 3: Integration of SwiftData local storage and `NotificationManager` flow.
 - [ ] Week 4: Physical device testing, QA, and visual HIG refinement.
 
 ## Project Structure
