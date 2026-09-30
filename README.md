@@ -2,8 +2,6 @@
 
 A native iOS application designed to calculate optimal sleep cycles (90 minutes) and record basic daily rest metrics completely offline.
 
-## [Placeholder: Insert Badges Here (e.g., Build Status, License, Swift Version)]
-
 ## Minimum Viable Product (Version 1.0)
 
 To ensure an agile development cycle of less than a month, the initial version is strictly limited to the following features:
@@ -78,15 +76,3 @@ Doze/
 │   ├── Roadmap.md
 │   └── UML/                  # Class diagrams & wireframes
 └── README.md
-
-## [Placeholder: Installation / Setup]
-<!-- Instructions on how to clone the repo and run the project in Xcode -->
-* Clone the repository: `git clone [repository-url]`
-* Open `Doze.xcodeproj` in Xcode 16+.
-* Select target device/simulator (iOS 17.0+) and press `Cmd + R` to run.
-
-## [Placeholder: Screenshots / UI Previews]
-<!-- Add UI screenshots showcasing the dark mode interface -->
-
-## [Placeholder: License]
-<!-- Define project license -->
