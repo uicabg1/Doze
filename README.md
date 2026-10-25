@@ -74,5 +74,6 @@ Doze/
 │       └── Assets.xcassets
 ├── docs/                     # Planning & Architecture Assets
 │   ├── Roadmap.md
+│   ├── adr/                  # MADR
 │   └── UML/                  # Class diagrams & wireframes
 └── README.md
