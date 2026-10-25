@@ -54,26 +54,48 @@ The project follows the **MVVM (Model-View-ViewModel)** pattern with clear separ
 ```text
 Doze/
 ├── Doze/                     # App Source Code
-│   ├── App/                  # Main App Entry Point (DozeApp.swift)
-│   ├── Models/               # SwiftData Persistence Entities (@Model)
-│   │   └── SleepRecord.swift
-│   ├── ViewModels/           # MVVM State Manager (@Observable)
-│   │   └── SleepViewModel.swift
-│   ├── Services/             # Business Logic & Utility Engines
-│   │   ├── SleepCalculator.swift
-│   │   ├── SleepMetrics.swift
-│   │   └── NotificationManager.swift
-│   ├── Views/                # SwiftUI Declarative Interface
-│   │   ├── WakeUpView.swift
-│   │   ├── BedtimeView.swift
-│   │   ├── EnergyView.swift
-│   │   ├── ManualAdjustmentView.swift
-│   │   ├── MetricsView.swift
-│   │   └── Components/       # Reusable UI elements (Buttons, Cards)
-│   └── Resources/            # Assets, Color Palette (#1E1E1E, #E9B71A)
+│   ├── App/                  
+│   │   └── DozeApp.swift
+│   ├── Features/             
+│   │   ├── SleepTracking/    
+│   │   │   ├── WakeUpView.swift*
+│   │   │   ├── BedtimeView.swift*
+│   │   │   └── SleepCalculator.swift
+│   │   ├── Metrics/          
+│   │   │   ├── MetricsView.swift*
+│   │   │   ├── EnergyView.swift*
+│   │   │   └── SleepMetrics.swift
+│   │   └── ManualAdjustment/ 
+│   │       └── ManualAdjustmentView.swift*
+│   ├── Core/                 
+│   │   ├── Data/             
+│   │   │   └── SleepRecord.swift
+│   │   ├── State/            
+│   │   │   └── SleepViewModel.swift*
+│   │   ├── Notifications/    
+│   │   │   └── NotificationManager.swift
+│   │   └── Components/       
+│   └── Resources/            
 │       └── Assets.xcassets
-├── docs/                     # Planning & Architecture Assets
+├── DozeTests/
+│   ├── NotificationManagerTests.swift
+│   ├── SleepCalculatorTests.swift
+│   ├── SleepMetricsTest.swift
+│   └── SleepRecordTests.swift
+├── DozeUITests/
+│   ├── DozeUITests.swift
+│   └── DozeUITestsLaunchTests.swift
+├── docs/                     
 │   ├── Roadmap.md
-│   ├── adr/                  # MADR
-│   └── UML/                  # Class diagrams & wireframes
+│   ├── adr/                  
+│   │   ├── 001-mvvm-architecture.md
+│   │   ├── 002-swiftdata-persistence.md
+│   │   ├── 003-offline-first-strategy.md
+│   │   ├── 004-user-notifications-alarm.md
+│   │   └── adr-template.md
+│   └── UML/                  
+│       ├── UML_Doze.md
+│       ├── WireFrimes1.png
+│       ├── WireFrimes2.png
+│       └── WireFrimes3.png
 └── README.md

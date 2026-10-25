@@ -1,3 +1,7 @@
 xcursedata/
-Doze/docs/adr-template.md
-Doze/docs/Roadmap.md
+.DS_Store
+/*.xcodeproj/xcuserdata/
+/*.xcodeproj/project.xcworkspace/xcuserdata/
+DerivedData/
+docs/adr/adr-template.md
+docs/Roadmap.md
