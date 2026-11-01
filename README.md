@@ -1,4 +1,4 @@
-    # Doze
+#Doze
 
 A native iOS application designed to calculate optimal sleep cycles (90 minutes) and record basic daily rest metrics completely offline.
 
